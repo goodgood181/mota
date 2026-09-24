@@ -1,0 +1,65 @@
+{
+  "key_yellow": {"name": "黄钥匙", "type": "key", "value": 0, "desc": "打开一扇黄门。"},
+  "key_blue":   {"name": "蓝钥匙", "type": "key", "value": 1, "desc": "打开一扇蓝门。"},
+  "key_red":    {"name": "红钥匙", "type": "key", "value": 2, "desc": "打开一扇红门。"},
+  "hp_small":   {"name": "小血瓶", "type": "hp", "value": 100, "desc": "回复 100 生命。"},
+  "hp_big":     {"name": "大血瓶", "type": "hp", "value": 300, "desc": "回复 300 生命。"},
+  "atk_potion": {"name": "力量药水", "type": "atk", "value": 10, "desc": "攻击 +10。"},
+  "def_potion": {"name": "铁壁药水", "type": "def", "value": 10, "desc": "防御 +10。"},
+  "gold_bag":   {"name": "金币袋", "type": "gold", "value": 25, "desc": "25 枚金币。"},
+  "fragment_1": {
+    "name": "记忆碎片·命运", "type": "fragment",
+    "desc": "一枚发光的碎片。",
+    "pickup_text": "「你不记得了。但塔记得——第一万次站在这里的人，是你。」"
+  },
+  "fragment_2": {
+    "name": "记忆碎片·囚笼", "type": "fragment",
+    "desc": "一枚发光的碎片。",
+    "pickup_text": "「城堡里没有公主。那声音在模仿你心里最想听到的那个人。」"
+  },
+  "fragment_3": {
+    "name": "记忆碎片·镜子", "type": "fragment",
+    "desc": "一枚发光的碎片。",
+    "pickup_text": "「50 层没有魔王。只有一面镜子，和一个王座。」"
+  },
+  "fragment_4": {
+    "name": "记忆碎片·回廊", "type": "fragment",
+    "desc": "一枚发光的碎片。",
+    "pickup_text": "「镜子里的人影转过脸——是你，比你年轻。它笑了：『你终于来替换我了。』」"
+  },
+  "fragment_5": {
+    "name": "记忆碎片·牢笼", "type": "fragment",
+    "desc": "一枚发光的碎片。",
+    "pickup_text": "「第五次进入牢狱的你，在铁门背面刻满了同一个名字——不是公主的。」"
+  },
+  "fragment_6": {
+    "name": "记忆碎片·执念", "type": "fragment",
+    "desc": "一枚发光的碎片。",
+    "pickup_text": "「向导说：『第一个走完这座塔的人死在 20 层。』你没问他怎么死的——因为你也快死在这里了。」"
+  },
+  "fragment_7": {
+    "name": "记忆碎片·心", "type": "fragment",
+    "desc": "一枚发光的碎片。",
+    "pickup_text": "「心魔记得你每一次逃跑的样子。它说：『你救不了她，因为我就是你。』」"
+  },
+  "relic_chijia": {
+    "name": "赤铠之怒", "type": "relic", "relic_effect": "first_battle_firststrike",
+    "desc": "本轮首次战斗必定先手。",
+    "pickup_text": "锈蚀的剑刃上，还留着你的血。"
+  },
+  "relic_gold": {
+    "name": "启程金币", "type": "relic", "relic_effect": "start_gold30",
+    "desc": "每轮回开始额外获得 150 金币。",
+    "pickup_text": "一枚旧金币，正面刻着你的脸。"
+  },
+  "relic_vigor": {
+    "name": "坚韧血瓶", "type": "relic", "relic_effect": "start_hp100",
+    "desc": "每轮回开始额外获得 300 生命。",
+    "pickup_text": "瓶底沉着没喝完的回忆。"
+  },
+  "relic_bounty": {
+    "name": "双倍赏金", "type": "relic", "relic_effect": "double_gold",
+    "desc": "本轮获得的金币翻倍。",
+    "pickup_text": "价签上的零，多写了一个。"
+  }
+}
