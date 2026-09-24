@@ -1,0 +1,125 @@
+[
+  {
+    "id": "slime_green", "name": "绿史莱姆",
+    "hp": 50, "atk": 20, "def": 1, "gold": 3, "exp": 1,
+    "skills": [],
+    "soul_line": "……这次要赢啊。",
+    "desc": "软趴趴的一团，塔底层最常见的居民。"
+  },
+  {
+    "id": "bat_small", "name": "小蝙蝠",
+    "hp": 100, "atk": 35, "def": 5, "gold": 2, "exp": 2,
+    "skills": ["combo"],
+    "spare": true,
+    "soul_line": "（沉默地让路）",
+    "desc": "翅膀拍得很快。每回合攻击两次。"
+  },
+  {
+    "id": "skeleton", "name": "骷髅兵",
+    "hp": 150, "atk": 45, "def": 10, "gold": 3, "exp": 3,
+    "skills": [],
+    "soul_line": "我的剑……还在 7 楼。",
+    "desc": "曾经也是个勇者。"
+  },
+  {
+    "id": "wraith", "name": "怨灵",
+    "hp": 120, "atk": 30, "def": 8, "gold": 4, "exp": 4,
+    "skills": ["curse"],
+    "soul_line": "别往前走了……前面没有她。",
+    "desc": "被诅咒的执念。战后你的攻击会永久下降。"
+  },
+  {
+    "id": "slime_split", "name": "分裂史莱姆",
+    "hp": 70, "atk": 22, "def": 2, "gold": 2, "exp": 2,
+    "skills": ["split"],
+    "split_into": "slime_blue_small",
+    "soul_line": "（裂开之前，它似乎在笑）",
+    "desc": "死亡后分裂成两只小的。"
+  },
+  {
+    "id": "slime_blue_small", "name": "小型蓝史莱姆",
+    "hp": 40, "atk": 18, "def": 2, "gold": 1, "exp": 1,
+    "skills": [],
+    "desc": "分裂产物。烦躁的小东西。"
+  },
+  {
+    "id": "vampire", "name": "吸血鬼",
+    "hp": 200, "atk": 40, "def": 15, "gold": 8, "exp": 8,
+    "skills": ["lifesteal"],
+    "soul_line": "（它舔了舔牙，没有嘴唇）",
+    "desc": "每回合回复自身攻击 50% 的生命。需要一击线足够。"
+  },
+  {
+    "id": "golem_aura", "name": "领域魔像",
+    "hp": 300, "atk": 50, "def": 30, "gold": 10, "exp": 10,
+    "skills": ["aura"],
+    "soul_line": "（石像的裂缝里，传出无数人的叹息）",
+    "desc": "相邻 4 格的怪物攻防 +30%。阵型本身就是谜题。"
+  },
+  {
+    "id": "guard_red", "name": "守门人·赤铠",
+    "hp": 1200, "atk": 130, "def": 60, "gold": 60, "exp": 60,
+    "skills": ["first_strike"],
+    "boss": true,
+    "soul_line": "又来了。",
+    "desc": "5F 的守门人。首轮的你绝无胜算——但轮回留下的经验，会在某一次醒来时悄悄越过这道坎。"
+  },
+  {
+    "id": "iron_soldier", "name": "铁皮卫兵",
+    "hp": 500, "atk": 55, "def": 40, "gold": 15, "exp": 15,
+    "skills": [],
+    "soul_line": "（甲胄里是空的。它曾经也是守门人。）",
+    "desc": "第 2 章的入门守卫。防很高，需要先堆攻击。"
+  },
+  {
+    "id": "stone_guard", "name": "石铠卫",
+    "hp": 400, "atk": 50, "def": 35, "gold": 12, "exp": 12,
+    "skills": ["aura"],
+    "soul_line": "（它裂缝里，传出过同一首安眠曲）",
+    "desc": "会为相邻的同类撑起护盾（领域）。"
+  },
+  {
+    "id": "dark_mage", "name": "暗法师",
+    "hp": 350, "atk": 70, "def": 20, "gold": 18, "exp": 18,
+    "skills": ["first_strike", "curse"],
+    "soul_line": "（法杖敲了三下地面：你还活着啊）",
+    "desc": "先手施法＋诅咒，战后你的攻击永久下降。"
+  },
+  {
+    "id": "mirror_guard", "name": "镜卫·魁",
+    "hp": 1600, "atk": 130, "def": 70, "gold": 150, "exp": 150,
+    "skills": ["combo", "first_strike"],
+    "boss": true,
+    "soul_line": "（镜面里，站着所有轮回的你）",
+    "desc": "第 2 章尽头之守。你的影子也在镜中。"
+  },
+  {
+    "id": "shadow_elf", "name": "暗影卫士",
+    "hp": 500, "atk": 75, "def": 40, "gold": 20, "exp": 20,
+    "skills": ["combo"],
+    "soul_line": "（影子先于你举起刀）",
+    "desc": "第 3 章的门卫。青色眼光亮起时，它已经出手两次。"
+  },
+  {
+    "id": "banshee", "name": "怨歌女妖",
+    "hp": 450, "atk": 65, "def": 30, "gold": 18, "exp": 18,
+    "skills": ["first_strike", "curse"],
+    "soul_line": "（歌声里有一首你小时候的歌，调子全跑了）",
+    "desc": "先手哀歌＋诅咒，战后你的攻击永久下降。"
+  },
+  {
+    "id": "black_knight", "name": "黑铁骑士",
+    "hp": 700, "atk": 95, "def": 55, "gold": 30, "exp": 30,
+    "skills": ["combo", "first_strike"],
+    "soul_line": "（马没了。它还是不肯下马）",
+    "desc": "第 3 章的中坚。连击先手，防御不达标就是两刀。"
+  },
+  {
+    "id": "heart_demon", "name": "心魔·妄",
+    "hp": 2600, "atk": 200, "def": 110, "gold": 300, "exp": 300,
+    "skills": ["combo", "first_strike", "curse"],
+    "boss": true,
+    "soul_line": "（整个牢狱回响着同一句话：『你杀了那么多个自己，怎么还怕我？』）",
+    "desc": "第 3 章尽头之守。它是你所有轮回里杀死的「自己」拼成的心。"
+  }
+]
