@@ -1,0 +1,11 @@
+1
+x
+I
+UP
+DOWN
+LEFT
+RIGHT
+ESC
+2
+1
+5
