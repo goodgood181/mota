@@ -1,0 +1,15 @@
+# 编译产物
+build/
+*.obj
+*.exe
+*.pdb
+
+# 存档
+save_*.dat
+data/save_*.dat
+
+# 临时文件
+*.bmp
+st_out.txt
+st_err.txt
+_share_check/
