@@ -1,0 +1,136 @@
+[
+  {
+    "id": "floor_1", "file": "floor_01.txt", "name": "入塔",
+    "start_x": 3, "start_y": 1,
+    "monsters": { "a": "slime_green" },
+    "items": { "k": "key_yellow", "h": "hp_small", "$": "gold_bag" },
+    "npc_event": "oldman",
+    "goal": "找到黄钥匙，推开必经的黄门，登上 2F"
+  },
+  {
+    "id": "floor_2", "file": "floor_02.txt", "name": "商人的回廊",
+    "shop": true,
+    "monsters": { "b": "bat_small", "c": "skeleton" },
+    "items": { "k": "key_blue", "h": "hp_big", "$": "gold_bag" },
+    "goal": "商店与蓝钥匙都在走廊上——拿钥匙，穿蓝门，往 3F 走"
+  },
+  {
+    "id": "floor_3", "file": "floor_03.txt", "name": "亡者之层",
+    "monsters": { "e": "slime_split", "w": "wraith" },
+    "items": { "f": "fragment_1", "r": "key_red", "$": "gold_bag" },
+    "goal": "拾取红钥匙（4F 的门要用），穿过分裂史莱姆把守的竖道"
+  },
+  {
+    "id": "floor_4", "file": "floor_04.txt", "name": "红门走廊",
+    "monsters": { "v": "vampire", "c": "skeleton", "g": "golem_aura" },
+    "items": { "f": "fragment_2", "$": "gold_bag" },
+    "npc_event": "shade_4f",
+    "goal": "残影在等你。用红钥匙打开红门，穿过石魔的领域走廊"
+  },
+  {
+    "id": "floor_5", "file": "floor_05.txt", "name": "守门人的走廊",
+    "monsters": { "Q": "guard_red" },
+    "items": { "f": "fragment_3" },
+    "trigger_event": "pillar_5f",
+    "goal": "击败守门人·赤铠，登出第 1 章"
+  },
+  {
+    "id": "floor_6", "file": "floor_06.txt", "name": "镜之回廊·甲",
+    "monsters": { "w": "wraith", "i": "iron_soldier" },
+    "items": { "k": "key_yellow", "h": "hp_small", "$": "gold_bag" },
+    "goal": "第 2 章：黄钥匙在门口，黄门挡住楼梯——先过铁皮卫兵的走廊"
+  },
+  {
+    "id": "floor_7", "file": "floor_07.txt", "name": "镜之回廊·乙",
+    "monsters": { "z": "stone_guard" },
+    "items": { "k": "key_blue", "h": "hp_big", "$": "gold_bag" },
+    "goal": "蓝钥匙在手边，蓝门卡住唯一竖道——小心石铠卫的领域"
+  },
+  {
+    "id": "floor_8", "file": "floor_08.txt", "name": "镜之回廊·丙",
+    "monsters": { "d": "dark_mage", "v": "vampire" },
+    "items": { "r": "key_red", "f": "fragment_3", "$": "gold_bag" },
+    "goal": "红钥匙在前，红门在竖道——暗法师会先手诅咒，先堆防御"
+  },
+  {
+    "id": "floor_9", "file": "floor_09.txt", "name": "双钥走廊",
+    "monsters": { "z": "stone_guard", "d": "dark_mage" },
+    "items": { "k": "key_yellow", "b": "key_blue", "$": "gold_bag" },
+    "goal": "两道门、两把钥匙、一段没有退路的走廊——这是成长的毕业考"
+  },
+  {
+    "id": "floor_10", "file": "floor_10.txt", "name": "镜·尽头",
+    "monsters": { "d": "dark_mage", "v": "vampire", "M": "mirror_guard" },
+    "items": { "f": "fragment_4" },
+    "goal": "镜卫·魁在楼梯前。击败它，登上塔顶"
+  },
+  {
+    "id": "floor_11", "file": "floor_11.txt", "name": "牢狱之门",
+    "monsters": { "A": "shadow_elf" },
+    "items": { "k": "key_yellow", "h": "hp_small", "$": "gold_bag" },
+    "npc_event": "guide",
+    "goal": "第 3 章：暗影牢狱。黄钥匙在脚边，黄门是唯一的路——穿过暗影卫士"
+  },
+  {
+    "id": "floor_12", "file": "floor_12.txt", "name": "牢狱下城区",
+    "monsters": { "B": "banshee" },
+    "items": { "b": "key_blue", "P": "hp_big", "$": "gold_bag" },
+    "npc_event": "guide",
+    "goal": "蓝钥匙在前，蓝门卡住竖道——怨歌女妖会先手诅咒，注意攻击会被夺走"
+  },
+  {
+    "id": "floor_13", "file": "floor_13.txt", "name": "石牢回廊",
+    "monsters": { "A": "shadow_elf", "B": "banshee" },
+    "items": { "r": "key_red", "F": "fragment_5", "$": "gold_bag" },
+    "npc_event": "guide",
+    "goal": "红钥匙在手边，红门挡住去路；碎片 5/7 在走廊尽头"
+  },
+  {
+    "id": "floor_14", "file": "floor_14.txt", "name": "铁囚层",
+    "monsters": { "C": "black_knight" },
+    "items": { "b": "key_blue", "G": "fragment_6", "$": "gold_bag" },
+    "npc_event": "guide",
+    "goal": "黑铁骑士首次现身——防 55 之前，别急着进门"
+  },
+  {
+    "id": "floor_15", "file": "floor_15.txt", "name": "蠕行深牢",
+    "monsters": { "C": "black_knight", "B": "banshee" },
+    "items": { "k": "key_yellow", "h": "hp_small", "$": "gold_bag" },
+    "npc_event": "guide",
+    "goal": "黄钥匙与黄门——第 3 章的守关走廊，慎行"
+  },
+  {
+    "id": "floor_16", "file": "floor_16.txt", "name": "心魔回廊·甲",
+    "monsters": { "A": "shadow_elf", "C": "black_knight" },
+    "items": { "b": "key_blue", "P": "hp_big", "$": "gold_bag" },
+    "npc_event": "guide",
+    "goal": "镜卫之上是心魔的回廊。蓝钥匙在前，蓝门只开一条路"
+  },
+  {
+    "id": "floor_17", "file": "floor_17.txt", "name": "心魔回廊·乙",
+    "monsters": { "B": "banshee" },
+    "items": { "r": "key_red", "D": "def_potion", "$": "gold_bag" },
+    "npc_event": "guide",
+    "goal": "红钥匙、铁壁药水都在路上，红门在尽头"
+  },
+  {
+    "id": "floor_18", "file": "floor_18.txt", "name": "心魔回廊·丙",
+    "monsters": { "C": "black_knight", "B": "banshee", "A": "shadow_elf" },
+    "items": { "k": "key_yellow", "F": "fragment_7", "$": "gold_bag" },
+    "npc_event": "guide",
+    "goal": "碎片 7/7 在此。黄门后是真正的考验"
+  },
+  {
+    "id": "floor_19", "file": "floor_19.txt", "name": "妄念前厅",
+    "monsters": { "B": "banshee", "A": "shadow_elf" },
+    "items": { "h": "hp_small", "$": "gold_bag" },
+    "npc_event": "guide",
+    "goal": "前厅没有门——只有两个仍不肯倒下的黑影。心魔在下一层"
+  },
+  {
+    "id": "floor_20", "file": "floor_20.txt", "name": "心之牢",
+    "monsters": { "A": "shadow_elf", "B": "banshee", "M": "heart_demon" },
+    "items": { "h": "hp_small" },
+    "goal": "心魔·妄在牢底。击败它，登上塔顶——第 3 章完结"
+  }
+]
